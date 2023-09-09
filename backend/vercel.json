@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name":"Siddharth-Multi-Vendor-E-Commerce",
+    "builds":[
+        {"src":"server.js","use":"@vercel/node"}
+    ],
+    "routes":[
+        {"src":"/(.*)","dest":"/server.js"}
+    ]
+}
